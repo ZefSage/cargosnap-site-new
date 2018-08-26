@@ -1,0 +1,13 @@
+{
+  "name": "CargoSnap | Snap Scan Share",
+  "short_name": "CargoSnap",
+  "description": "CargoSnap | Snap Scan Share",
+  "start_url": "/",
+  "background_color": "#000000",
+  "theme_color": "#0f4a73",
+  "icons": [{
+    "src": "icon-256.png",
+    "sizes": "256x256",
+    "type": "image/png"
+  }]
+}

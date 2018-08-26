@@ -1,0 +1,84 @@
+baseurl: 'https://cargosnapsite.azurewebsites.net'
+title: CargoSnap
+theme: cargosnap
+languageCode: en-us
+defaultContentLanguage: en
+languages:
+  en:
+    weight: 1
+    languageName: English
+    contentDir: content/en
+    menu:
+      main:
+        - url: /explore/
+          name: Explore
+          weight: 1        
+        - url: /features/
+          name: Features
+          weight: 2
+        - url: /pricing/
+          name: Pricing
+          weight: 3
+        - url: /about-us/
+          name: About us
+          weight: 4
+        - url: /Support/
+          name: Support
+          weight: 5
+        - url: /whats-new/
+          name: Whats new
+          weight: 6
+  nl:
+    weight: 2
+    languageName: Nederlands
+    contentDir: content/nl
+    menu:
+      main:
+        - url: /explore/
+          name: Explore
+          weight: 1        
+        - url: /features/
+          name: Features
+          weight: 2
+        - url: /pricing/
+          name: Pricing
+          weight: 3
+        - url: /about-us/
+          name: About us
+          weight: 4
+        - url: /Support/
+          name: Support
+          weight: 5
+        - url: /whats-new/
+          name: Whats new
+          weight: 6
+  pt-br:
+    weight: 3
+    languageName: Português (br)
+    contentDir: content/br
+    menu:
+      main:
+        - url: /explore/
+          name: Explore
+          weight: 1        
+        - url: /features/
+          name: Features
+          weight: 2
+        - url: /pricing/
+          name: Pricing
+          weight: 3
+        - url: /about-us/
+          name: About us
+          weight: 4
+        - url: /Support/
+          name: Support
+          weight: 5
+        - url: /whats-new/
+          name: Whats new
+          weight: 6
+permalinks:
+  post: '/:year/:month/:title/'
+taxonomies:
+  tag: ""
+  group: ""
+  category: ""
