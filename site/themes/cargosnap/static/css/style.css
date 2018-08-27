@@ -1,7 +1,10 @@
 @font-face {
     font-family: CargoSnapFont;
-    src: url(font/338056_0_0.woff);
-    src: url(font/338056_0_0.eot?#iefix) format("embedded-opentype"), url(font/338056_0_0.woff2) format("woff2"), url(font/338056_0_0.woff) format("woff"), url(font/338056_0_0.ttf) format("truetype")
+    src: url(/css/font/338056_0_0.woff);
+    src: url(/css/font/338056_0_0.eot?#iefix) format("embedded-opentype"), 
+		 url(/css/font/338056_0_0.woff2) format("woff2"), 
+		 url(/css/font/338056_0_0.woff) format("woff"), 
+		 url(/css/font/338056_0_0.ttf) format("truetype")
 }
 
 body, html {

@@ -1,8 +1,9 @@
-baseurl: 'https://pedantic-noether-821031.netlify.com'
 title: CargoSnap
 theme: cargosnap
 languageCode: en-us
+metaDataFormat: YAML
 defaultContentLanguage: en
+baseurl: https://cargosnap-static.azurewebsites.net
 languages:
   en:
     weight: 1
@@ -79,6 +80,6 @@ languages:
 permalinks:
   post: '/:year/:month/:title/'
 taxonomies:
-  tag: ""
-  group: ""
-  category: ""
+  tag: ''
+  group: ''
+  category: ''
